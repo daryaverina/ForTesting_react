@@ -19,8 +19,7 @@ function App() {
     setPosts([...posts, newPost ]);
   }
   const drawval = (newPost)=>{
-    setMyval(newPost.test)
-    console.log(newPost.test)
+    setMyval(newPost)
   }
  
   return (
